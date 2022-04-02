@@ -15,7 +15,7 @@ public class AddSubTest {
     public void testAddFail() {
         Calculator operations = new Calculator();
         // assertNotEquals(String message, long expected, long actual)
-        assertNotEquals("error in add()", 3, operations.add(1, 2));
+        assertNotEquals("error in add()", 0, operations.add(1, 2));
     }
 
     @Test
