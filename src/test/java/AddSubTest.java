@@ -6,7 +6,7 @@ public class AddSubTest {
     public void testAddPass() {
         // assertEquals(String message, long expected, long actual)
         Calculator operations = new Calculator();
-        assertEquals("error in add()",  3, operations.add(2, 2));
+        assertEquals("error in add()",  3, operations.add(1, 2));
         assertEquals("error in add()", -3, operations.add(-1, -2));
         assertEquals("error in add()",  9, operations.add(9, 0));
     }
